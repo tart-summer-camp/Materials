@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Tart Yaz Kampı </title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+	</head>
+	<body>
+		<div class="linkContainer">
+			<a id="yazKampiLink" class="link" style="color:red;" title="Yaz Kampı" href="http://www.tart.com.tr/yazkampi"> Yaz Kampı</a>
+			<a class="link" title="Yaz Kampı" href="http://www.tart.com.tr/yazkampi"> Bir başka linkYaz Kampı</a>
+		</div>
+		<div class="foo">
+			<div class="info">Lorem ipsum dolor sit amet </div>
+			<div class="info">consectetur adipiscing elit.</div>
+			<div class="info">In lobortis tincidunt lectus</div>
+			<div class="info"> sed facilisis justo elementum quis.</div>
+		</div>
+		<section>
+			<div class="bar">
+		       		<img src="http://animateyourhtml5.appspot.com/pres/images/tile_user.png" class="end" id="im3">
+				<p class="text"> Progress elemanı </p>
+				<progress> loading.. </progress>
+				<p class="text"> Input </p>
+				<input type="search" results="10" placeholder="Search..." />
+			</div>
+			<canvas id="canvas" width="438" height="220"></canvas>
+
+			<div class="box">
+
+			</div>
+		</section>
+	<script>
+		var canvasContext = document.getElementById("canvas").getContext("2d");
+  
+		canvasContext.fillStyle = "rgb(0,0,255)";
+		canvasContext.fillRect (20, 20, 65, 60);
+
+		canvasContext.fillStyle = "rgba(250, 250, 0, 0.5)";
+		canvasContext.fillRect (40, 40, 65, 60);
+
+		var grd=canvasContext.createLinearGradient(230,0,500,50);
+		grd.addColorStop(0,"#FF0000");
+		grd.addColorStop(1,"#00FF00");
+		canvasContext.fillStyle=grd;
+		canvasContext.fillRect(230,40,500,50);
+	</script>
+	</body>
+</html>
