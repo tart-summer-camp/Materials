@@ -1,0 +1,26 @@
+body { margin: 0 auto; width: 900px; }
+.link { font-size: 14px; }
+.link:firstChild { text-indent : 10px; }
+.foo { margin: 20px 0; width: 500px; box-shadow: 0 0 3px rgba(0, 0, 255, .5);}
+.foo .info:nth-child(even) { background: #666; }
+.foo .info:nth-child(odd) { background: #999; }
+
+progress { display: block; margin-top: 20px; }
+.end {
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+	-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+	-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+}
+
+.end:hover{
+	-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+	-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+}
+
+
+.box { width: 100px; height: 50px; border-radius: 10px 0 10px 0; background: black; }
+
