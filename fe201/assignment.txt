@@ -1,0 +1,53 @@
+Merhaba arkadaslar,
+
+Bir kisim requirementlari yazdim. Bunlari mumkun oldugunca classlara dokmenizi rica ediyoruz. Dilerseniz ekstra ozellikler ekleyebilir, olan olaylari browser a basabilirsiniz.
+
+
+--------
+Maceraya hazir misiniz?
+
+Gelin kendimize yeni bir Dunya yaratalim. Dunyada  oyuncular (Player) ve Zindanlar  (Dungeon) bulunuyor.  
+
+Oyuncular dunyaya dahil olabilmesi icin kendilerine bir irk-class secmek zorundalar. Bu kimlikler secenekleri sunlar olabilir: Priest, Warrior, Mage ve Paladin. 
+
+
+Playerlarin ve monsterlarin levellari olmak zorunda. En kucuk level 1 den baslar ve her level bir oncekinin 2^n kati xp a sahiptir. Level atlandiginda, her atlanan  level oyuncuya level degerinin  10 kati can saglar (health).
+
+Her oyncunun 10 bolumluk inventory (cantasindaki alan) bulunmakta. Ve yaninda bunlari dolduracak kada item tasiyabilir.
+
+Oyuncular xp i oldurdukleri canavarlardan kazanirlar. Fakat kendi oldurdukleri rakiplerinden xp kazanmazlar. Ölen canarvarlar en fazla dungeonda olan kisi sayisi kadar weapon dusurebilir.
+
+Weaponlar savascilara ekstra ozellik saglayabilir. (ornegin player in healthina + 5 ekleyebilir )
+
+
+Her oyuncu, rakipleriyle ya da zindanlarda karsilastigi canavarlarla( monster) savasabilmek icin mutlaka silahi(weapon) bulundurmak zorunda. Fakat dikkat!! Her irk her silahi ozellikleri geregi tasiyamiyor.
+
+Canavarlar sadece zindanlarda bulunuyor. Zindana girilebilmek icin en az iki oyuncu olmak zorunda.
+
+Mage tipki Priest gibi Staff, dagger ve one handed mace kullanabiliyor. 
+Warrior staff haricindeki tum two handed tum weaponlari kullanabiliyor.
+Paladin ise one handed tum weaponlar ve heal ozelliginden dolayi staff kullabiliyor. 
+
+Dungeonlara en az iki player girebilir.
+Eger dungeon a giren oyuncularin levellerinin ortalamasi oldurmeye calistiklari canavardan en az 5 level kucuk ise dungeonda olan oyuncular ölür.
+
+Shieldlar sadece one handed weaponlarla kullabilir. Bir oyuncu elinde two handed weapon var ise digerini birakmak ya da inventory e koymak durumunda. 
+
+Mage - dps
+Priest - healer , dps
+Warrior - tank, dps
+Paladin - tank, dps, healer
+---------------
+Dps ozelligindeki irklar  yaratiklara ve rakiplere tank a gore 2 kat,  healer ozellikteki oyunculara gore 3 kat daha fazla damage(zarar) veriyor. 
+
+Healer kendi healthinin yarisi kadarini bir baska oyuncuya ya da kendine verebilir.
+
+Tank healer a gore 3 kat, dps e gore 2 kat az damage alir. 
+---------------
+Silah cesitleri: 
+    axe (1-2 hand)
+   Staff (2 hand)
+   Mace ( 1 hand)
+   Dagger ( 1 hand)
+   Sword (1-2 hand)
+   Shield ( zirh) - 1 hand
