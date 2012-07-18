@@ -1,0 +1,51 @@
+data = {
+	players : [ 
+		{
+			health: 100,
+			level : 1,
+			name : "mahmut",
+			race : {
+				type : "Warrior",
+				tactic : "tank"
+			},
+			items : [ 
+				{ type : "sword", handCount: 1, name : "God's sword" },
+				{ type : "shield", handCount: 1, "Tart shield"}
+			],
+			xp : 0			
+		},
+		{
+			health: 200,
+			level : 3,
+			name : "mehmet",
+			race : {
+				type : "Mage",
+				tactic : "dps"
+			},
+			items : [ 
+				{ type : "staff", handCount: 2, name : "sdf" }
+			],
+			xp : 100
+		},
+		{
+			health: 100000,
+			level : 85,
+			name : "armagan",
+			race : {
+				type : "Priest",
+				tactic : "healer"
+			},
+			items : [ 
+				{ type : "staff", handCount: 2, name : "mehmet's staff"}
+			],
+			xp : 100
+		}
+	],
+	dungeons : [ {
+		monsters : {
+			health : 10,
+			level: 1,
+			items: [ { type : "staff", handCount: 2, name : "mehmet's staff"} ]
+		}
+	}]
+}
