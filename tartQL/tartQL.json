@@ -1,0 +1,185 @@
+{
+    "requestFields": [
+        "emailAddress",
+        "customerProfile.firstName",
+        "customerProfile.surName",
+        "customerProfile.mobilePhoneNumber",
+        "customerProfile.gender.name",
+        "customerProfile.educationLevel.name",
+        "customerProfile.birthday",
+        "customerProfile.nickname",
+        "newsletterSubscription.newsletter.name",
+        "newsletterSubscription.isSubscribed"
+    ]
+}
+
+
+
+
+
+{
+    "requestFields": [
+        "emailAddress",
+        "customerProfile.firstName",
+        "customerProfile.surName",
+        "customerProfile.mobilePhoneNumber",
+        "customerProfile.gender.name",
+        "customerProfile.educationLevel.name",
+        "customerProfile.birthday",
+        "customerProfile.nickname",
+        "newsletterSubscription.newsletter.name",
+        "newsletterSubscription.isSubscribed"
+    ],
+    "filterParams": [
+        {
+            "customerProfile.firstName": [
+                {
+                    "=": "Ahmet"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+{
+    "requestFields": [
+        "emailAddress",
+        "customerProfile.firstName",
+        "customerProfile.surName",
+        "customerProfile.mobilePhoneNumber",
+        "customerProfile.gender.name",
+        "customerProfile.educationLevel.name",
+        "customerProfile.birthday",
+        "customerProfile.nickname",
+        "newsletterSubscription.newsletter.name",
+        "newsletterSubscription.isSubscribed"
+    ],
+    "filterParams": [
+        {
+            "customerProfile.firstName": [
+                {
+                    "=": "Ahmet"
+                }
+            ]
+        }
+    ],
+    "paginationParams": {
+        "limit": 20,
+        "offset": 0
+    }
+}
+
+
+
+
+
+{
+    "requestFields": [
+        "emailAddress",
+        "customerProfile.firstName",
+        "customerProfile.surName",
+        "customerProfile.mobilePhoneNumber",
+        "customerProfile.gender.name",
+        "customerProfile.educationLevel.name",
+        "customerProfile.birthday",
+        "customerProfile.nickname",
+        "newsletterSubscription.newsletter.name",
+        "newsletterSubscription.isSubscribed"
+    ],
+    "filterParams": [
+        {
+            "customerProfile.firstName": [
+                {
+                    "=": "Ahmet"
+                }
+            ]
+        }
+    ],
+    "paginationParams": {
+        "limit": 20,
+        "offset": 0
+    },
+    "sortParams": [
+        {
+            "createdAt": "asc"
+        }
+    ]
+}
+
+
+
+
+
+{
+    "postParams": {
+        "customer": {
+            "emailAddress" : "cihangir.savas@tart.com.tr"
+            "customerProfile": {
+                "name": "Ahmet"
+            }
+        }
+    }
+}
+
+
+
+
+
+{
+    "postParams": {
+        "customer": {
+            "id": "42",
+            "customerStatus": {
+                "constant": "active"
+            }
+        }
+    }
+}
+
+
+
+
+
+{
+    "postParams": {
+        "specialOffer": {
+            "name": "SpecialOfferName",
+            "type": {
+                "constant": "stock"
+            },
+            "status": {
+                "constant": "active"
+            },
+            "body": "description",
+            "publishedFrom": "2012-03-05 00:00:00",
+            "publishedTo": "2012-03-15 00:00:00",
+            "metaTitle": "meta title",
+            "metaDescription": "meta description",
+            "metaKeywords": "meta keywords",
+            "specialOfferProducts": [
+                {
+                    "product": {
+                        "id": "2"
+                    },
+                    "sortOrder": "1",
+                    "discountAmount": "10",
+                    "stock": "2"
+                },
+                {
+                    "product": {
+                        "id": "2"
+                    },
+                    "sortOrder": "1",
+                    "discountAmount": "10",
+                    "stock": "2"
+                }
+            ]
+        }
+    }
+}
+
+
